@@ -1,0 +1,63 @@
+body, .login-header {
+  margin: 0;
+  padding: 0;
+  position: relative;
+
+  font-family: 'Segoe UI', serif;
+  //padding-bottom: 20px;
+  height: 200px;
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-position: center center;
+}
+
+#iconHeader, #logoIconHeader{
+  height: 40px;
+  width: 40px;
+}
+
+.containerHeader {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 7vh;
+  background-color: grey;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  box-shadow: 3px 5px 5px rgb(0, 0, 0);
+}
+
+h3 {
+  padding: 1em;
+  color: white;
+  letter-spacing: 3px;
+}
+
+ul, li {
+  list-style: none;
+  display: flex;
+  padding: 1em;
+  margin: 0;
+}
+
+li {
+  cursor: pointer;
+  //transition: all .5s ease-in-out;
+  margin: 0.5em;
+  padding: 10px 15px;
+  color: white;
+  border-radius: 20px;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* animacion
+li:hover{
+  background-color: aqua;
+  box-shadow: 3px 5px 5px rgb(0, 0, 0);
+}
+*/
